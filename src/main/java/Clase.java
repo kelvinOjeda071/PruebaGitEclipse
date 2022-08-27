@@ -4,7 +4,8 @@ public class Clase {
   @Override
   public String toString() {
     String resultado = "Hola "+hola;
-    return resultado;
+    String validar = resultado;
+    return validar;
   }
 
 }
