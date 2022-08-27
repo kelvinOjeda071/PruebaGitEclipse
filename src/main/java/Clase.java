@@ -3,7 +3,8 @@ public class Clase {
 
   @Override
   public String toString() {
-    return hola;
+    String resultado = "Hola "+hola;
+    return resultado;
   }
 
 }
