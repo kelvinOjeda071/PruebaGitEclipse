@@ -8,4 +8,8 @@ public class Main {
 		int b = 20;
 	}
 
+	public static void imprimirValor(String valor) {
+		System.out.println(valor);
+	}
+
 }
