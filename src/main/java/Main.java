@@ -9,6 +9,8 @@ public class Main {
 	}
 
 	public static void imprimirValor(String valor) {
+		valor = valor + " ";
+		String respuesta = valor;
 		System.out.println(valor);
 		valor = valor + "1";
 		String resultdo = String.valueOf(valor);
