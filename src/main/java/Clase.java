@@ -3,8 +3,9 @@ public class Clase {
 
   @Override
   public String toString() {
-    String resultado = "Hola "+hola;
-    return resultado;
+    String resultado = "Hola " + hola;
+    String envio = String.valueOf(resultado);
+    return envio;
   }
 
 }
