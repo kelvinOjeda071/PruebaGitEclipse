@@ -5,7 +5,9 @@ public class Clase {
   public String toString() {
     String resultado = "Hola " + hola;
     String envio = String.valueOf(resultado);
-    return envio;
+    String resultado1 = "Hola " + hola;
+    String validar = resultado;
+    return validar;
   }
 
 }
